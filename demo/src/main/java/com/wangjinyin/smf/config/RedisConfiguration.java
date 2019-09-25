@@ -30,7 +30,7 @@ import redis.clients.jedis.JedisPoolConfig;
 
 /**
  * redis配置类
- * @author 汪进银
+ * @author 汪进银  
  *
  */
 //SpringBoot自动帮我们在容器中生成了一个RedisTemplate和一个StringRedisTemplate。但是，这个RedisTemplate的泛型是<Object,Object>
