@@ -19,7 +19,6 @@
 	</properties>
 
 	<dependencies>
-	
 	    <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -30,6 +29,18 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
 		
+		<!-- spring Actuator监视spring程序是如何装配在一起的，以及内部的运行情况，可以掌握应用程序可以获取环境属性信息.... -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+	  <!--
+		<dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        -->
+        
 		<!-- mongodb -->
 		<dependency>
             <groupId>org.springframework.boot</groupId>
@@ -71,6 +82,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>

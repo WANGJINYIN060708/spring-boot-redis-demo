@@ -9,6 +9,7 @@ import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;
 
 @Configuration
+@SuppressWarnings("all")
 public class DruidConfiguration {
 	
 	/**
