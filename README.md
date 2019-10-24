@@ -3,7 +3,7 @@
 redis主要作为缓存，解决项目的性能问题，一般地，一个系统的最大性能瓶颈就是***数据库的IO操作***，另外数***据库调优***性价比是最高的。<br>
 一般分为两个层面，一是提高数据库sql语句本身的性能，二是尽量避免查询数据库<br>
 使用redis作为缓存可以大幅度提高系统的性能<br>
-![image](https://github.com/xxx/git-test-1/raw/master/img/1.png)
+![image](https://github.com/WANGJINYIN060708/spring-boot-redis-demo/blob/master/redis%E7%BC%93%E5%AD%98%E5%8E%9F%E7%90%86%E5%9B%BE.png)
 ## 2.redis整合工程（Spring boot 项目 推荐使用注解方式来完成配置）
 ### 2.1引入依赖（根据自身需要可以选择不同的客户端，这里选择jedis）
     <dependency>
